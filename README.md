@@ -26,6 +26,8 @@ You need **R (≥ 4.0.0)** and the following R packages:
 ```r
 install.packages(c("shiny", "caret", "randomForest", "nnet"))
 
+---
+
 📂 Dataset Requirements
 Your CSV file must include the following columns:
 - AGB (Above-Ground Biomass, response variable)
@@ -36,6 +38,8 @@ Your CSV file must include the following columns:
 - SpH (Soil pH)
 - NDVI (Normalized Difference Vegetation Index)
 - EVI (Enhanced Vegetation Index)
+
+---
 
 📊 Output
 1. Data Preview – Displays the first rows of uploaded data.
