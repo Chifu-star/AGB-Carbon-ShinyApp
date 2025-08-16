@@ -25,3 +25,20 @@ You need **R (≥ 4.0.0)** and the following R packages:
 
 ```r
 install.packages(c("shiny", "caret", "randomForest", "nnet"))
+
+📂 Dataset Requirements
+Your CSV file must include the following columns:
+- AGB (Above-Ground Biomass, response variable)
+- Dbh (Diameter at Breast Height)
+- Ht (Tree Height)
+- Elv (Elevation)
+- Slp (Slope)
+- SpH (Soil pH)
+- NDVI (Normalized Difference Vegetation Index)
+- EVI (Enhanced Vegetation Index)
+
+📊 Output
+1. Data Preview – Displays the first rows of uploaded data.
+2. Predictions – Shows predicted AGB and Carbon stock.
+3. Accuracy Metrics – Displays MAE, RMSE, R², AIC, and BIC.
+4. Download Option – Save predictions as a CSV file.
